@@ -25,13 +25,7 @@
 	<section class="px-8 xs:px-4 lg:px-32 xl:px-60">
 		<header class="rounded-t-xl space-y-4 py-6 dark:highlight-white/10">
 			<div class="flex items-center">
-				<a href="/">
-					<img
-						src="https://em-content.zobj.net/source/microsoft-teams/337/sheaf-of-rice_1f33e.png"
-						alt="logo"
-						class="w-14 xl:w-24"
-					/></a
-				>
+				<a href="/"><img src="./favicon.png" alt="logo" class="w-14 xl:w-24" /></a>
 				<div>
 					<a href="/">
 						<h2 class="font-extrabold text-2xl sm:text-3xl lg:text-4xl tracking-tight">
