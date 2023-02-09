@@ -7,9 +7,11 @@
 	const baseURL = 'https://api.datamuse.com';
 
 	const handleClick = (word: string) => {
-		data = [];
-		if (typeof window !== 'undefined') {
-			goto(`/${word}`);
+		if ($page.params.slug !== word) {
+			data = [];
+			if (typeof window !== 'undefined') {
+				goto(`/${word}`);
+			}
 		}
 	};
 	const fetchList: Record<string, string[]> = {
