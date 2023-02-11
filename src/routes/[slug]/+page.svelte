@@ -38,7 +38,7 @@
 			for (const j of fetchList[i]) {
 				const urlArgs = new URLSearchParams({
 					[j]: $page.params.slug,
-					max: '15',
+					max: '16',
 					topics: ''
 				});
 
